@@ -1,0 +1,18 @@
+<div class="container">
+    <p id="notice"><%= notice %></p>
+
+    <p class="header">
+      <strong>Note Header:</strong>
+      <%= @note.nHeader %>
+    </p>
+
+    <p class="header">
+      <strong>Note Content:</strong>
+      <%= @note.nContent %>
+    </p>
+
+    <%= link_to 'Edit', edit_note_path(@note), :class => "btn btn-success"  %>
+    <%= link_to 'Back', notes_path , :class => "btn btn-warning" %>
+
+
+</div>

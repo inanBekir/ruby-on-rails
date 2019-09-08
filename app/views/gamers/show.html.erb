@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Gname:</strong>
+  <%= @gamer.gName %>
+</p>
+
+<p>
+  <strong>Gscore:</strong>
+  <%= @gamer.gScore %>
+</p>
+
+<%= link_to 'Edit', edit_gamer_path(@gamer) %> |
+<%= link_to 'Back', gamers_path %>
