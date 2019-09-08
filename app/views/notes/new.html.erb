@@ -1,5 +1,9 @@
-<h1>New Note</h1>
+<div class="container">
+<h1 class="header">New Note</h1>
+<div class="content">
 
 <%= render 'form', note: @note %>
 
-<%= link_to 'Back', notes_path %>
+<%= link_to 'Back', notes_path , :class => "btn btn-warning" %>
+</div>
+</div>
