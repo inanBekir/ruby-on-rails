@@ -41,10 +41,7 @@ test: &test
 production:
   adapter: postgresql
   encoding: unicode
-  database: postgres
-  pool: 5
-  host: localhost
-  username: postgres
-  password: postgres
+  database: db/production.sqlite3
+
 
 
