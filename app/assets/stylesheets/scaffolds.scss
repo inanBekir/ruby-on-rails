@@ -83,3 +83,12 @@ div {
 label {
   display: block;
 }
+
+.navbar-links{
+  list-style: none;
+  display: flex;
+}
+.navbar-links li {
+  padding: 3px;
+  padding-left: 10px;
+}

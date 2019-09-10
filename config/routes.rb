@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :notes
   resources :gamers
   resources :players
   resources :employers
-  get 'notes/index'
+
   root to: 'notes#index'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

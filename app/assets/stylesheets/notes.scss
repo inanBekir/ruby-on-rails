@@ -36,3 +36,16 @@ background-color: #eeeeee;
   padding: 10px;
   background-color: #999999;
 }
+
+.noteHeader{
+  border-bottom: 1px solid red ;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.noteContent {
+  text-decoration: underline;
+  text-transform: uppercase;
+  border-bottom: 1px solid red ;
+
+}
