@@ -26,6 +26,10 @@ gem 'bcrypt'
 
 gem 'devise'
 
+gem 'debase'
+
+gem 'ruby-debug-ide'
+
 gem 'rails_12factor', group: :production
 
 gem 'sqlite3', group: :development

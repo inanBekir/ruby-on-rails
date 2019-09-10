@@ -13,6 +13,7 @@
 
   <tbody>
     <% @notes.each do |note| %>
+      <%if (current_user.id = note.ownerId)%>
       <tr class="alert alert-primary">
         <td><%= note.nHeader %></td>
         <td><%= note.nContent %></td>
@@ -20,7 +21,7 @@
         <td><%= link_to 'Edit', edit_note_path(note),:class => "btn btn-warning" %></td>
         <td><%= link_to 'Delete', note, method: :delete, data: { confirm: 'Are you sure?' } ,:class => "btn btn-danger" %></td>
       </tr>
-
+      <%end %>
 
     <% end %>
 

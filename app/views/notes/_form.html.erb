@@ -21,6 +21,10 @@
     <%= form.text_field :nContent %>
   </div>
 
+  <div class="field">
+  <%= form.hidden_field :ownerId, :value => current_user.id%>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
